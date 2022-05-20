@@ -23,7 +23,7 @@ for word in example_lower:
     
 print(filtered_list)
 
-example='This is an Example, to show us how many words get filtered out'
+#ßexample='This is an Example, to show us how many words get filtered out'
 sentence = "The war in ukraine is making me suicidal"
 
 good = spacy_model("good")
@@ -58,5 +58,5 @@ for token1 in doc:
 
 
 
-# print(stopwords_nltk)
+print(stopwords_nltk)
 
